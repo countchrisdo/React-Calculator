@@ -1,0 +1,47 @@
+h2 {
+  text-align: center;
+}
+.result {
+  height: 80px;
+  width: 100%;
+
+  background: rgba(72, 39, 2, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+}
+
+/* change background color test */
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  /* background-color: rgb(202, 157, 141); */
+  background-image: url("https://th.bing.com/th/id/R.7729ff39c9847c8f614276bcce7e44be?rik=fGPt2023Piukqw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2feihY1qO.png&ehk=anPAJd5YdUr%2b3a8JjiXz91v7VS2SG1TXAzM7SjsCjbc%3d&risl=&pid=ImgRaw");
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.orangeBTN {
+  background-color: rgba(241, 153, 10, 0.938);
+}
+
+.zeroBTN {
+  width: 50%;
+}
